@@ -1,3 +1,4 @@
+#define _USE_MATH_DEFINES
 #include <iostream>
 #include <LaborkaConfig.h>
 
@@ -5,7 +6,6 @@
 #include "trygonometria.h"
 #else
 #include <cmath>
-#define _USE_MATH_DEFINES
 #endif
 
 int main() {
